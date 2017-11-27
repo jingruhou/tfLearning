@@ -2,7 +2,7 @@
 import tensorflow.examples.tutorials.mnist.input_data as input_data
 import tensorflow as tf
 
-mnist = input_data.read_data_sets("Resource/Data/mnist", one_hot=True)
+mnist = input_data.read_data_sets("mnist", one_hot=True)
 
 # 创建模型
 x = tf.placeholder(tf.float32, [None, 784])
