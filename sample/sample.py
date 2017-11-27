@@ -2,7 +2,6 @@
 import tensorflow as tf
 import  numpy as np
 
-#
 # (1)
 # 使用NumPy生成假数据(phony data),总共100个点
 
@@ -25,7 +24,7 @@ train = optimizer.minimize(loss)
 
 # (4)
 # 初始化变量
-#init = tf.initialize_all_variables()
+# init = tf.initialize_all_variables()
 init = tf.global_variables_initializer()
 
 
